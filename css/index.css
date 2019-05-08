@@ -1,3 +1,126 @@
 /* Use your own code or past solution for Great Idea Web Page CSS here! */
 
+.container {
+	width: 880px;
+	/* TB LR */
+	margin: 0 auto;
+  }
+  
+  /* header */
+  header {
+	  display: flex;
+	  flex-wrap: wrap;
+	  align-items: center;
+	  margin-top: 35px;
+	  justify-content: space-between;
+  }
+  header nav {
+	display: flex;
+	width: 691px;
+	vertical-align: top;
+  }
+  
+  header nav a {
+	margin-right: 65px;
+	font-size: 14px;
+	color: gray;
+	text-decoration: none;
+  }
+  
+  header nav a:hover {
+	text-decoration: underline;
+  }
+  
+  header nav a:first-child {
+	margin-left: 0;
+  }
+  
+  header nav a:last-child {
+	margin-right: 0;
+  }
+  
 
+  
+  /* cta */
+  
+  .cta .cta-text {
+	margin: 20px;
+	display: flex;
+	font-size: 77px;
+	flex-direction: column;
+	width: 400px;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+  }
+
+  .cta {
+	  height: 400px;
+	  display: flex;
+	  align-items: center;
+	  margin: 20px 0px;
+  }
+  
+  .cta .cta-text button {
+	background: white;
+	vertical-align: top;
+	margin-top: 6px;
+	padding: 8px 44px;
+	font-size: 17px;
+	border: 1px solid black;
+	cursor: pointer;
+  }
+  
+  .cta .cta-text button:hover {
+	background: black;
+	color: white;
+  }
+  
+  .main-content {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+
+  }
+  
+  .main-content .top-content {
+	width: 880px;
+	height: 160px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+  }
+  
+  
+  .main-content .bottom-content {
+	width: 880px;
+	height: 195px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+  }
+  
+  .main-content .bottom-content .text-content {
+	  padding-right: 20px;
+  }
+  
+  
+  .contact {
+	height: 215px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+  }
+  .contact h4, .contact p {
+	  margin: 7px;
+  }
+  
+  
+  footer {	
+	  display: flex;
+	  align-items: center;
+	  justify-content: center;
+	  margin-bottom: 35px;
+  }
